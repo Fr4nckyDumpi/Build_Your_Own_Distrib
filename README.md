@@ -1,2 +1,5 @@
-# Build_Your_Own_Distrib
-L'objectif de ce projet était de faire une/des installation(s) de différent(s) package(s).
+
+# Quick test
+
+$> docker build -t build_your_own_distrib .
+$> docker run -it -p 80:80 --cap-add=NET_ADMIN build_your_own_distrib bash
